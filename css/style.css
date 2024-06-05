@@ -1,0 +1,36 @@
+/* Псевдокласи стану */
+tr:hover {
+    background-color: #f0f0f0;
+    /* Фон рядка при наведенні */
+}
+
+td:first-child {
+    color: blue;
+    /* Колір тексту першої комірки в кожному рядку */
+}
+
+td:last-child {
+    color: green;
+    /* Колір тексту останньої комірки в кожному рядку */
+}
+
+/* Структурні псевдокласи */
+tr:nth-child(1) {
+    color: black;
+    /* Колір тексту для першого рядка */
+}
+
+tr:nth-child(-n+3) {
+    background-color: #cce7ff;
+    /* Фон перших трьох рядків */
+}
+
+tr:nth-last-child(-n+3) {
+    background-color: #fff7cc;
+    /* Фон останніх трьох рядків */
+}
+
+td:nth-child(3) {
+    color: red;
+    /* Колір тексту для середньої колонки */
+}
